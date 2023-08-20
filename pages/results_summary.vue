@@ -17,10 +17,16 @@
         <h2>Summary</h2>
         <div
           class="Card"
-          style="background-color: var(--Light-red-background); color: var(--Light-red)"
+          style="
+            background-color: var(--Light-red-background);
+            color: var(--Light-red);
+          "
         >
           <div>
-            <img src="@/assets/result-summary/icon-reaction.svg" alt="icon-reaction" />
+            <img
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-reaction.svg"
+              alt="icon-reaction"
+            />
             <div>Reaction</div>
           </div>
           <div style="color: var(--Light-lavender); font-weight: 700">
@@ -30,10 +36,16 @@
         </div>
         <div
           class="Card"
-          style="background-color: var(--Orangey-yellow-background); color: var(--Orangey-yellow)"
+          style="
+            background-color: var(--Orangey-yellow-background);
+            color: var(--Orangey-yellow);
+          "
         >
           <div>
-            <img src="@/assets/result-summary/icon-memory.svg" alt="icon-memory" />
+            <img
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-memory.svg"
+              alt="icon-memory"
+            />
             <div>Memory</div>
           </div>
           <div style="color: var(--Light-lavender); font-weight: 700">
@@ -43,10 +55,16 @@
         </div>
         <div
           class="Card"
-          style="background-color: var(--Green-teal-background); color: var(--Green-teal)"
+          style="
+            background-color: var(--Green-teal-background);
+            color: var(--Green-teal);
+          "
         >
           <div>
-            <img src="@/assets/result-summary/icon-verbal.svg" alt="icon-verbal" />
+            <img
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-verbal.svg"
+              alt="icon-verbal"
+            />
             <div>Verbal</div>
           </div>
           <div style="color: var(--Light-lavender); font-weight: 700">
@@ -56,10 +74,16 @@
         </div>
         <div
           class="Card"
-          style="background-color: var(--Cobalt-blue-background); color: var(--Cobalt-blue)"
+          style="
+            background-color: var(--Cobalt-blue-background);
+            color: var(--Cobalt-blue);
+          "
         >
           <div>
-            <img src="@/assets/result-summary/icon-visual.svg" alt="icon-visual" />
+            <img
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-visual.svg"
+              alt="icon-visual"
+            />
             <div>Visual</div>
           </div>
           <div style="color: var(--Light-lavender); font-weight: 700">
@@ -77,14 +101,15 @@
 
     <div class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Natchanonnn</a>.
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Natchanonnn</a>.
     </div>
   </div>
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Hanken+Grotesk:wght@500;700;800&display=swap");
 .Container {
   /* ### Primary */
   --Light-red: hsl(0, 100%, 67%);
@@ -110,7 +135,7 @@
   --border-radius: 20px;
 
   /* Fonts */
-  font-family: 'Hanken Grotesk';
+  font-family: "Hanken Grotesk";
   /* Weights: 500, 700, 800 */
   display: flex;
   justify-content: center;
@@ -138,7 +163,11 @@ p {
   font-size: 18px;
 }
 .Left {
-  background: linear-gradient(0deg, var(--Light-royal-blue), var(--Light-slate-blue));
+  background: linear-gradient(
+    0deg,
+    var(--Light-royal-blue),
+    var(--Light-slate-blue)
+  );
   border-radius: var(--border-radius);
   height: 400px;
   color: var(--White);
@@ -204,7 +233,11 @@ button {
   margin: 28px 0;
 }
 button:active {
-  background: linear-gradient(0deg, var(--Light-royal-blue), var(--Light-slate-blue));
+  background: linear-gradient(
+    0deg,
+    var(--Light-royal-blue),
+    var(--Light-slate-blue)
+  );
 }
 h2 {
   font-weight: 800;
@@ -231,12 +264,12 @@ p {
     margin: 0;
     padding: 0;
     justify-content: center;
-    border-radius: 0  0  var(--border-radius) var(--border-radius);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
   .Right {
     height: 50%;
     width: 100%;
-    padding: 20px;  
+    padding: 20px;
   }
   p {
     width: 300px;
