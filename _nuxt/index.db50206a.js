@@ -1,0 +1,1 @@
+import{_}from"./nuxt-link.9dccd439.js";import{_ as s,c,d as e,a as o,b as a,w as n,o as r}from"./entry.032f31fc.js";const d={},u={class:"IndexPage"};function i(l,m){const t=_;return r(),c("div",u,[e(" Index "),o("div",null,[a(t,{to:"/results_summary"},{default:n(()=>[e("results_summary")]),_:1})])])}const f=s(d,[["render",i],["__scopeId","data-v-546ecec6"]]);export{f as default};
