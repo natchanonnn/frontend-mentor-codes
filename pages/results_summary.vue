@@ -24,7 +24,7 @@
         >
           <div>
             <img
-              src="@/assets/result-summary/icon-reaction.svg"
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-reaction.svg"
               alt="icon-reaction"
             />
             <div>Reaction</div>
@@ -43,7 +43,7 @@
         >
           <div>
             <img
-              src="@/assets/result-summary/icon-memory.svg"
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-memory.svg"
               alt="icon-memory"
             />
             <div>Memory</div>
@@ -62,7 +62,7 @@
         >
           <div>
             <img
-              src="@/assets/result-summary/icon-verbal.svg"
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-verbal.svg"
               alt="icon-verbal"
             />
             <div>Verbal</div>
@@ -81,7 +81,7 @@
         >
           <div>
             <img
-              src="@/assets/result-summary/icon-visual.svg"
+              src="https://raw.githubusercontent.com/natchanonnn/frontend-mentor-codes/main/starters/results-summary-component-main/assets/images/icon-visual.svg"
               alt="icon-visual"
             />
             <div>Visual</div>
