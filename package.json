@@ -5,6 +5,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -12,5 +13,8 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
     "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "push-dir": "^0.4.1"
   }
 }
